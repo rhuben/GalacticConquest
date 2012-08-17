@@ -12,6 +12,8 @@ var cube;
 var isMouseDown=false;
 //var lastMouseX, lastMouseY;
 
+console.log("document: "+document);
+
 
 var POIs=[];
 POIs.push([[0,0,0], "red", "base"]);
@@ -40,7 +42,8 @@ function init() {
     // create the Scene
     scene = new THREE.Scene();
 
-    
+    console.log("document: "+document);
+
     addLights();
     addAxes();
     drawPOIs();
