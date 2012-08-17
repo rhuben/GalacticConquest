@@ -12,7 +12,7 @@ var cube;
 var isMouseDown=false;
 //var lastMouseX, lastMouseY;
 
-console.log("document: "+document);
+console.log("document body: "+document.body);
 
 
 var POIs=[];
