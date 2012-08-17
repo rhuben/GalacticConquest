@@ -80,12 +80,12 @@ function addLights()
 
 function addAxes()
 {
-    var xAxis=new THREE.Mesh(new THREE.CylinderGeometry(1,1,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
+    var xAxis=new THREE.Mesh(new THREE.CylinderGeometry(2,2,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
     scene.add(xAxis);
-    var yAxis=new THREE.Mesh(new THREE.CylinderGeometry(1,1,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
+    var yAxis=new THREE.Mesh(new THREE.CylinderGeometry(2,2,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
     yAxis.rotation.x=(Math.PI)/2;
     scene.add(yAxis);
-    var zAxis=new THREE.Mesh(new THREE.CylinderGeometry(1,1,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
+    var zAxis=new THREE.Mesh(new THREE.CylinderGeometry(2,2,2000,10,10), new THREE.MeshLambertMaterial({color: 0x000000}));
     zAxis.rotation.z=(Math.PI)/2;
     scene.add(zAxis); 
 }
