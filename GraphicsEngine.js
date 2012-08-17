@@ -48,7 +48,7 @@ function init() {
 
     // create the container element
     container = document.createElement( 'div' );
-    document.appendChild( container );
+    document.body.appendChild( container );
 
     // init the WebGL renderer and append it to the Dom
     renderer = new THREE.WebGLRenderer();
