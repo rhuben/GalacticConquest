@@ -12,7 +12,6 @@ var cube;
 var isMouseDown=false;
 //var lastMouseX, lastMouseY;
 
-console.log("document body: "+document.body);
 
 
 var POIs=[];
@@ -42,7 +41,6 @@ function init() {
     // create the Scene
     scene = new THREE.Scene();
 
-    console.log("document: "+document);
 
     addLights();
     addAxes();
@@ -50,7 +48,7 @@ function init() {
 
     // create the container element
     container = document.createElement( 'div' );
-    document.body.appendChild( container );
+    document.appendChild( container );
 
     // init the WebGL renderer and append it to the Dom
     renderer = new THREE.WebGLRenderer();
